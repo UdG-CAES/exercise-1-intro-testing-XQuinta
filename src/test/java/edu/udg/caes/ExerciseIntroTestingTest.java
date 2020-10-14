@@ -37,7 +37,7 @@ public class ExerciseIntroTestingTest {
 
     @Test
     public void testLastZero2(){
-        final int result = ExerciseIntroTesting.lastZero(new int []{0, 1, 0});
+        final int result = ExerciseIntroTesting.lastZero(new int []{0, 1, 5});
         assertEquals(result, 0);
     }
 
